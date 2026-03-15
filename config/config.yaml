@@ -130,15 +130,21 @@ rss:
       name: "bing新疆旅游"
       url: "https://www.bing.com/news/search?q=新疆旅游&format=RSS"
 
+    - id: "sichuantravel"
+      name: "bing四川旅游"
+      url: "https://www.bing.com/news/search?q=四川旅游&format=RSS"
+
+    - id: "qinghaitravel"
+      name: "bing青海旅游"
+      url: "https://www.bing.com/news/search?q=青海旅游&format=RSS"
+
+    - id: "gansuttravel"
+      name: "bing甘肃旅游"
+      url: "https://www.bing.com/news/search?q=甘肃旅游&format=RSS"
+
     - id: "Tibettravel"
       name: "bing西藏旅游"
       url: "https://www.bing.com/news/search?q=西藏旅游&format=RSS"
-
-
-
-
-
-
 
     # 自定义源示例
     # - id: "custom-feed"
