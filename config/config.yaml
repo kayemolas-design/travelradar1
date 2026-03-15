@@ -126,6 +126,16 @@ rss:
       name: "bing中国旅游"
       url: "https://www.bing.com/news/search?q=中国旅游&format=RSS"
 
+    - id: "bing-xinjianglvyou"
+      name: "bing新疆旅游"
+      url: "https://www.bing.com/news/search?q=新疆旅游&format=RSS"
+
+    - id: "Tibettravel"
+      name: "bing西藏旅游"
+      url: "https://www.bing.com/news/search?q=西藏旅游&format=RSS"
+
+
+
 
 
 
@@ -154,7 +164,7 @@ rss:
 # - incremental：最少打扰，只看新增
 # ===============================================================
 report:
-  mode: "current"                     # daily | current | incremental（schedule 开启时作为默认值）
+  mode: "incremental"                     # daily | current | incremental（schedule 开启时作为默认值）
 
   display_mode: "keyword"             # 分组维度: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
@@ -163,11 +173,11 @@ report:
   # 关键词模式分组排序方式（仅 keyword 模式生效）
   # true: 按 frequency_words.txt 的定义顺序排列
   # false: 按匹配到的热点条数排序（条数多的在前）
-  sort_by_position_first: false
+  sort_by_position_first: true
 
   rank_threshold: 5                   # 排名高亮阈值（影响展示强调，不改变抓取范围）
 
-  max_news_per_keyword: 0             # 每个关键词/标签最大显示数量（0=不限制，仅影响展示裁剪）
+  max_news_per_keyword: 3             # 每个关键词/标签最大显示数量（0=不限制，仅影响展示裁剪）
 
 
 # ===============================================================
